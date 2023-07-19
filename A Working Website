@@ -1,0 +1,130 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<title>ClickStart - WebDev with CSS</title>
+</head>
+
+<body>
+	
+<header>
+<div class="bar" style="text-align: center;">
+	<h1><a href="index.html">Web Development</a></h1>
+</div>
+</header>
+
+<nav>
+<div class="bar">
+	<p><b>Useful Links</b>
+	<a href="https://www.w3schools.com/html/default.asp"><button class="btn">W3Schools: HTML</button></a>
+	<a href="https://www.w3schools.com/css/default.asp"><button class="btn">W3Schools: CSS</button></a>
+	<a href="https://www.w3schools.com/bootstrap5/"><button class="btn">W3Schools: Bootstrap5</button></a>
+	<a href="https://getbootstrap.com/docs/5.3/getting-started/introduction/"><button class="btn">Bootstrap Docs</button></a>
+	<a href="https://stackoverflow.com/"><button class="btn">Stack Overflow</button></a>
+	</p>
+		
+</div>
+</nav>
+	
+<div style="display: flex; flex: 1; flex-direction: row;">
+	
+	<div class="sidebar" style="flex-basis: 120px;">
+	<aside>
+		<br>
+		<p>
+			<a href=#s1>Session 1</a><br>
+			<a href=#s2>Session 2</a><br>
+			<a href=#s3>Session 3</a><br>
+			<a href=#s4>Session 4</a><br>
+			<a href=#s5>Session 5</a><br>
+		</p>		
+	</aside>
+	</div>
+	
+
+	<main>
+	<div class="main">
+		
+		<ol>
+			<li id="s1">Introduction</li>
+			<ul>
+				<li><a href="template.html">Template HTML</a></li>
+			</ul>
+			<li id="s2">HTML</li>
+			<ul>
+				<li><a href="headings.html">Headings</a></li>
+				<li><a href="text formatting.html">Text Formatting</a></li>
+				<li><a href="text formatting breaks.html">Line Breaks</a></li>
+				<li><a href="text formatting paragraphs.html">Paragraphs</a></li>
+				<li><a href="images.html">Images</a></li>
+				<li><a href="sized images.html">Sizing images</a></li>
+				<li><a href="hyperlinks.html">Hyperlinks</a></li>
+				<li><a href="external hyperlinks.html">External Hyperlinks</a></li>
+				<li><a href="hyperlink within page.html">Hyperlinks within a Page</a></li>
+				<li><a href="lists.html">Ordered Lists</a></li>
+				<li><a href="lists with type.html">Ordered Lists with Types</a></li>
+				<li><a href="unordered lists.html">Unordered Lists</a></li>
+				<li><a href="nested lists.html">Images</a></li>
+				<li><a href="tables.html">Tables</a></li>
+				<li><a href="entities.html">Entities</a></li>
+				<li><a href="comments.html">Comments</a></li>
+			</ul>
+			<li id="s3">Divisions and Styles</li>
+			<ul>
+				<li><a href="divisions.html">Divisions</a></li>
+				<li><a href="flexboxes.html">Flexboxes #1</a></li>
+				<li><a href="flexboxes2.html">Flexboxes #2</a></li>
+				<li><a href="position fixed and relative.html">Position property</a></li>
+				<li><a href="float.html">Float property #1</a></li>
+				<li><a href="float2.html">Float property #2</a></li>
+				<li><a href="clear.html">Clear property</a></li>
+				<li><a href="colours.html">Colours</a></li>
+				<li><a href="semantic tags.html">Semantic tags</a></li>
+			</ul>
+			<li id="s4">CSS</li>
+			<ul>
+				<li><a href="CSS para.html">Paragraphs</a></li>
+				<li><a href="CSS class.html">Classes</a></li>
+				<li><a href="CSS font.html">Fonts</a></li>
+				<li><a href="CSS button.html">Buttons</a></li>
+				<li><a href="CSS tables.html">Tables</a></li>
+				<li><a href="CSS background.html">Background images: page</a></li>
+				<li><a href="CSS background div.html">Background images: division</a></li>
+				<li><a href="CSS hover.html">Hover</a></li>
+			</ul>
+			<li id="s5">Bootstrap</li>
+			<ul>
+				<li><a href="bootstrap template.html">Bootstrap template</a></li>
+				<li><a href="bootstrap containers.html">Containers</a></li>
+				<li><a href="bootstrap spacing.html">Spacing</a></li>
+				<li><a href="bootstrap grid.html">Grid</a></li>
+				<li><a href="bootstrap responsive cols.html">Responsive columns</a></li>
+				<li><a href="bootstrap text colours.html">Text colours</a></li>
+				<li><a href="bootstrap background colours.html">Background colours</a></li>
+				<li><a href="bootstrap borders.html">Borders</a></li>
+				<li><a href="bootstrap images.html">Images</a></li>
+				<li><a href="bootstrap tables.html">Tables</a></li>
+				<li><a href="bootstrap buttons.html">Buttons</a></li>
+				<li><a href="bootstrap navbar.html">Navigation bars</a></li>
+				
+			</ul>
+			
+			
+			
+			<li>Project</li>
+		</ol>
+		
+	</div>
+	</main>
+
+<footer>
+</div>
+<div class="bar" style="clear:both; text-align: center;">
+		<b>&copy; Kevin Grieves, 2023</a></b>
+</div>
+</footer>
+
+
+</body>
+</html>
